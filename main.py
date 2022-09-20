@@ -49,3 +49,21 @@ final_password = ""
 for a in password:
     final_password += a
 print("Your password is: " + final_password)
+
+# Another method
+# password = []
+# for letter in range(1, nr_letters + 1):
+#   password.append(random.choice(letters))
+
+# for symbol in range(1, nr_symbols + 1):
+#   password.append(random.choice(symbols))
+
+# for number in range(1, nr_numbers + 1):
+#   password.append(random.choice(numbers))
+
+# random.shuffle(password)
+# final_password = ""
+# for char in password:
+#   final_password += char
+
+# print("Your password is: " + final_password)
